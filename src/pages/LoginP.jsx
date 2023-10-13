@@ -12,7 +12,7 @@ const LoginPage = () => {
     e.preventDefault();
     setUsername(username);
     setPassword(password);
-    if(username === 'diyorbek' && password === '1770'){
+    if(username === 'nodirbek' && password === 'P@ssw0rd'){
         setAuth(true);
         navigate('/teachers')
     }
