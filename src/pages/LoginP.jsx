@@ -50,7 +50,7 @@ const LoginPage = () => {
                 </span>
               </div>
               <input
-                type="text"
+                type="password"
                 className="form-control"
                 placeholder="Password"
                 value={password}
