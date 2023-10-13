@@ -21,9 +21,10 @@ const LoginPage = () => {
     <div className="container">
       <div className="form-box">
         <div className="header-form">
-          <h4 className="text-primary text-center">
-            <i className="fa fa-user-circle" style={{ fontSize: "110px" }}></i>
-          </h4>
+            {/* <h4 className="text-primary text-center">
+              <i className="fa fa-user-circle" style={{ fontSize: "110px" }}></i>
+            </h4> */}
+            <h1 className="text-center">Log in</h1>
           <div className="image"></div>
         </div>
         <div className="body-form">
@@ -56,29 +57,18 @@ const LoginPage = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <button type="submit" className="btn btn-secondary btn-block">
+            <button type="submit" className="btn btn-primary btn-block">
               LOGIN
             </button>
             <div className="message">
               <div>
-                <input type="checkbox" /> Remember ME
+                <input type="checkbox" /> Remember me
               </div>
               <div>
                 <a href="#">Forgot your password</a>
               </div>
             </div>
           </form>
-          <div className="social">
-            <a href="#">
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-twitter-square"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-google"></i>
-            </a>
-          </div>
         </div>
       </div>
     </div>
